@@ -1,8 +1,9 @@
 # Import required libraries
 import pandas as pd
 import dash
-import dash_html_components as html
-import dash_core_components as dcc
+#import dash_html_components as html
+from dash import html, dcc
+#import dash_core_components as dcc
 from dash.dependencies import Input, Output
 import plotly.express as px
 
@@ -94,4 +95,5 @@ def get_scatter_chart(entered_site, payload_range):
 
 # Run the app
 if __name__ == '__main__':
+    #app.run_server(debug=True, host="0.0.0.0", port=8080, use_reloader=False)
     app.run_server()
