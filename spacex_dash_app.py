@@ -95,5 +95,5 @@ def get_scatter_chart(entered_site, payload_range):
 
 # Run the app
 if __name__ == '__main__':
-    #app.run_server(debug=True, host="0.0.0.0", port=8080, use_reloader=False)
-    app.run_server()
+    app.run_server(debug=True, host="0.0.0.0", port=8080, use_reloader=False)
+    #app.run_server()
